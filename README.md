@@ -6,7 +6,7 @@ Formula 1 history website using:
 * JavaScript
 * PHP
 
-Created By [Karapiperakis Emmanouil](https://github.com/MKarapiperakis) and [Papachristou Ioannis](https://github.com/dit18146) and [Papavasilopoulos Ioannis](https://github.com/yiannnnis)
+Created By [Karapiperakis Emmanouil](https://github.com/MKarapiperakis), [Papachristou Ioannis](https://github.com/dit18146) and [Papavasilopoulos Ioannis](https://github.com/yiannnnis)
 
 ## Description
 A simple responsive web application, that focuses in the history of **Formula 1**.
