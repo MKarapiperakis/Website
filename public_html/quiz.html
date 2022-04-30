@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<link rel="stylesheet" href="styles/test.css">
+<link rel="stylesheet" href="styles/quiz.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="media/photos/f1icon.png" type="image/icon type">
+
+<style>
+    .ans{
+    background: none;
+   display : none;
+}
+
+.results{
+    color: white;
+    display: none;
+    text-align: center;
+    font-size: 20px;
+    
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="index.html">ΑΡΧΙΚΗ</a>
+  <a href="basics.html">ΕΙΣΑΓΩΓΗ</a>
+  <a href="more.html">ΠΕΡΙΣΣΟΤΕΡΑ</a>
+  <a href="quiz.html" style="background-color: #010f26;">QUIZ</a>
+  <a href="sign-up.php">ΕΓΓΡΑΦΗ</a>
+  <a href="login.php">ΕΙΣΟΔΟΣ</a>
+</div>
+
+<div class="navbar2">		
+	<div class = "dropdown">									<!-- menu που εμφανίζεται σε tablet και κινητά -->
+		<button class="dropbtn"><img src="media/photos/menu.png" align="center" alt="menu" width = 70px height = 50px></button>
+
+		<div class="dropdown-content">
+		  <a href="index.html"  >ΑΡΧΙΚΗ</a>
+		  
+		  <a href="basics.html" >ΕΙΣΑΓΩΓΗ</a>
+		  
+		  <a href="more.html" >ΠΕΡΙΣΣΟΤΕΡΑ</a>
+		  
+		  <a href="quiz.html" style="background-color: #010f26;">QUIZ</a>
+		  
+		  <a href="sign-up.php">ΕΓΓΡΑΦΗ</a>
+		  
+		  <a href="login.php">ΕΙΣΟΔΟΣ</a>
+		  
+		</div>
+	</div>  
+</div>
+		
+		
+<div class = "header" >
+	<h1>Η ιστορία της
+				
+					<a href="index.html"><img src="media/photos/logo.png" align="center" alt="F1" width = 100px height = 60px></a>	
+	</h1>
+	
+</div>		
+		
+		
+<div class="main">
+    	
+	<form name="quiz" id = "quiz">
+	 <!-- 1Η ΕΡΩΤΗΣΗ -->
+	<div class="col-3 col-s-6">
+		     
+			 <p >Ποιο έτος ξεκίνησε επίσημα το πρωτάθλημα της Formula 1;</p>
+				  <input  type="radio" id="1a" name="q1" value="1a">
+				 1950<div class = "ans" id = "answer1a"><img src="media/photos/green.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+				  <input  type="radio" id="1b" name="q1" value="1b">
+				  1960<div class = "ans" id = "answer1b"><img src="media/photos/wrong.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+				  <input type="radio" id="1c" name="q1" value="1c">
+				  1970<div class = "ans" id = "answer1c"><img src="media/photos/wrong.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+				  
+				
+	</div>
+	
+	<!-- 2Η ΕΡΩΤΗΣΗ -->
+	<div class="col-3 col-s-6">
+		
+			 <p>Ποιος είναι ο πιο πετυχημένος βρετανός πιλότος στην ιστορία του αθλήματος;</p>
+				  <input  type="radio" id="2a" name="q2" value="2a">
+				  Nigel Mansell<div class = "ans" id = "answer2a"><img src="media/photos/wrong.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+				  <input  type="radio" id="2b" name="q2" value="2b">
+				  Lewis Hamilton<div class = "ans" id = "answer2b"><img src="media/photos/green.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+				  <input type="radio" id="2c" name="q2" value="2c">
+				  Jackie Stewart<div class = "ans" id = "answer2c"><img src="media/photos/wrong.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+			
+	</div>
+	
+	<!-- 3Η ΕΡΩΤΗΣΗ -->
+	<div class="col-3 col-s-6">
+		
+			 <p>O Sebastian Vettel κέρδισε όλα του τα πρωταθλήματα με την ομάδα της Red Bull Racing.</p>
+				  <input  type="radio" id="3a" name="q3" value="3a">
+				  Σωστό<div class = "ans" id = "answer3a"><img src="media/photos/green.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+				  <input  type="radio" id="3b" name="q3" value="3b">
+				  Λάθος<div class = "ans" id = "answer3b"><img src="media/photos/wrong.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+
+		
+	</div>
+	<!-- 4Η ΕΡΩΤΗΣΗ -->
+	<div class="col-3 col-s-6">
+		
+			 <p >H Ferrari είναι η στατιστικά πιο πετυχημένη ομάδα.</p>
+				  <input  type="radio" id="4a" name="q4" value="4a">
+				  Σωστό<div class = "ans" id = "answer4a"><img src="media/photos/green.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+				  <input  type="radio" id="4b" name="q4" value="4b">
+				  Λάθος<div class = "ans" id = "answer4b"><img src="media/photos/wrong.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+
+		
+	</div>
+	
+	<div class = "col-12 col-s-12">
+		&nbsp;
+	</div>
+	<!-- 5Η ΕΡΩΤΗΣΗ -->
+	<div class="col-3 col-s-6">
+		
+			 <p >O Sebastian Vettel είναι Έλληνας.</p>
+				  <input  type="radio" id="5a" name="q5" value="5a">
+				  Σωστό<div class = "ans" id = "answer5a"><img src="media/photos/wrong.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+				  <input  type="radio" id="5b" name="q5" value="5b">
+				  Λάθος<div class = "ans" id = "answer5b"><img src="media/photos/green.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+
+		
+	</div>
+	
+	<!-- 6Η ΕΡΩΤΗΣΗ -->
+	<div class="col-3 col-s-6">
+		
+						
+		 <p >Ποιοι οδηγοί έχουν ίδιο αριθμό πρωταθηλμάτων;</p>
+			  <input  type="checkbox" id="6a" name="q6" value="6a">
+			  Fernando Alosno<div class = "ans" id = "answer6a"><img src="media/photos/wrong.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+			  <input  type="checkbox" id="6b" name="q6" value="6b">
+			  Michael Schumacher<div class = "ans" id = "answer6b"><img src="media/photos/green.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+			  <input type="checkbox" id="6c" name="q6" value="6c">
+			  Lewis Hamilton<div class = "ans" id = "answer6c"><img src="media/photos/green.png" align="center" alt="F1" width = 20px height = 90%></div><br>
+
+		
+	</div>
+	<!-- 7Η ΕΡΩΤΗΣΗ -->
+	<div class="col-3 col-s-12">
+		
+			
+			 <p >O <input  type="text" id="7" name="q7" value=""  maxlength="30" size = "10"> είναι ο πιο πετυχημένος Γερμανός πιλότος<div class = "ans" id = "answer7a"><img src="media/photos/wrong.png" align="center" alt="F1" width = 40px height = 90%></div><div class = "ans" id = "answer7b"><img src="/media/photos/green.png" align="center" alt="F1" width = 40px height = 90%></div></p>			
+		
+	</div>
+	<!-- 8Η ΕΡΩΤΗΣΗ -->
+	<div class="col-3 col-s-12">
+		
+			
+			 <p>Η βρετανική ομάδα της <input  type="text" id="8" name="q8" value="" maxlength="10" size = "10"> κυριάρχησε την δεκαετία του 90.<div class = "ans" id = "answer8a"><img src="media/photos/wrong.png" align="center" alt="F1" width = 40px height = 90%></div><div class = "ans" id = "answer8b"><img src="/media/photos/green.png" align="center" alt="F1" width = 40px height = 90%></div></p>		
+		
+	</div>
+	
+	<div class = "col-12 col-s-12">
+		&nbsp;
+	</div>
+	<!-- 9Η ΕΡΩΤΗΣΗ -->
+	<div class="col-3 col-s-12">
+		
+			
+			<p >O Ayrton Senna κέρδισε <input  type="text" id="9" name="q9" value="" maxlength="2" size = "3"> πρωταθλήματα.<div class = "ans" id = "answer9a"><img src="media/photos/wrong.png" align="center" alt="F1" width = 40px height = 90%></div><div class = "ans" id = "answer9b"><img src="/media/photos/green.png" align="center" alt="F1" width = 40px height = 90%></div></p>
+		
+	</div>
+
+	<div class="col-12 col-s-12">
+			<input type="submit" class = "btn_submit" value="Submit" onclick="results()">
+			<input type="submit" class = "btn_submit" value="Try again" onclick = "reset()">
+	</div>
+	
+	</form>
+	
+	<div class="col-12 col-s-12">
+			<div class = "results" id = "results"> </div>
+	</div>
+</div>
+
+
+
+<div class = "col-12 col-s-12" style= "height:100px" >
+
+&nbsp;
+</div>
+
+<div class = "col-12 col-s-12" style = "background-color: red" align = center >
+	<div class = "footer" >
+		
+		<h3 >
+		
+			Παπαβασιλόπουλος Ιωάννης &nbsp;			
+			<a href = "mailto:dit18141@go.uop.gr"> dit18141@go.uop.gr </a>
+			<br>
+			Καραπιπεράκης Εμμανουήλ &nbsp;&nbsp;&nbsp;			
+			<a href = "mailto:dit18075@go.uop.gr"> dit18075@go.uop.gr </a>
+			<br>
+			Παπαχρήστου Ιωάννης &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href = "mailto:dit18146@go.uop.gr"> dit18146@go.uop.gr </a>
+			<br>
+			&nbsp;
+		</h3>
+		
+		<p>
+			<a href="index.html">ΑΡΧΙΚΗ</a>
+			<a href="basics.html">ΕΙΣΑΓΩΓΗ</a>
+			<a href="more.html">ΠΕΡΙΣΣΟΤΕΡΑ</a>
+			<a href="quiz.html">QUIZ</a>
+			<a href="sign-up.php">ΕΓΓΡΑΦΗ</a>
+			<a href="login.php">ΕΙΣΟΔΟΣ</a>
+			
+		</p>
+			
+		<p>
+			Copyright &copy;2021 | Also hosted  <a  href ="https://websiteformula1.000webhostapp.com/" target = "_blank" style = "font-size: 15px;">here</a>
+		</p>
+		
+		
+	</div>
+</div>
+
+
+<script>
+
+function reset()
+{
+ document.getElementById("answer1a").style = " display : none;";
+ document.getElementById("answer1b").style = " display : none;";
+ document.getElementById("answer1c").style = " display : none;";
+ document.getElementById("answer2a").style = " display : none;";
+ document.getElementById("answer2b").style = " display : none;";
+ document.getElementById("answer2c").style = " display : none;";
+ document.getElementById("answer3a").style = " display : none;";
+ document.getElementById("answer3b").style = " display : none;";
+ document.getElementById("answer4a").style = " display : none;";
+ document.getElementById("answer4b").style = " display : none;";
+ document.getElementById("answer5a").style = " display : none;";
+ document.getElementById("answer5b").style = " display : none;";
+ document.getElementById("answer6a").style = " display : none;";
+ document.getElementById("answer6b").style = " display : none;";
+ document.getElementById("answer6c").style = " display : none;";
+ document.getElementById("answer7a").style = " display : none;";
+ document.getElementById("answer7b").style = " display : none;";
+ document.getElementById("answer8a").style = " display : none;";
+ document.getElementById("answer8b").style = " display : none;";
+ document.getElementById("answer9a").style = " display : none;";
+ document.getElementById("answer9b").style = " display : none;";
+ document.getElementById("quiz").reset();
+}
+
+function results(){
+q1 = document.quiz.q1.value;
+q2 = document.quiz.q2.value;
+q3 = document.quiz.q3.value;
+q4 = document.quiz.q4.value;
+q5 = document.quiz.q5.value;
+q6a = document.getElementById("6a");
+q6b = document.getElementById("6b");
+q6c = document.getElementById("6c");
+q7 = document.quiz.q7.value;
+q8 = document.quiz.q8.value;
+q9 = document.quiz.q9.value;
+
+ document.getElementById("answer1a").style = " display : none;";
+ document.getElementById("answer1b").style = " display : none;";
+ document.getElementById("answer1c").style = " display : none;";
+ document.getElementById("answer2a").style = " display : none;";
+ document.getElementById("answer2b").style = " display : none;";
+ document.getElementById("answer2c").style = " display : none;";
+ document.getElementById("answer3a").style = " display : none;";
+ document.getElementById("answer3b").style = " display : none;";
+ document.getElementById("answer4a").style = " display : none;";
+ document.getElementById("answer4b").style = " display : none;";
+ document.getElementById("answer5a").style = " display : none;";
+ document.getElementById("answer5b").style = " display : none;";
+ document.getElementById("answer6a").style = " display : none;";
+ document.getElementById("answer6b").style = " display : none;";
+ document.getElementById("answer6c").style = " display : none;";
+ document.getElementById("answer7a").style = " display : none;";
+ document.getElementById("answer7b").style = " display : none;";
+ document.getElementById("answer8a").style = " display : none;";
+ document.getElementById("answer8b").style = " display : none;";
+ document.getElementById("answer9a").style = " display : none;";
+ document.getElementById("answer9b").style = " display : none;";
+ 
+ 
+count = 0;
+
+
+
+if(q1 == "1a")
+{
+    count++;
+    ans1 = "Σωστό";
+
+    document.getElementById("answer1a").style = " display : inline;";
+    
+}
+else if(q1 == "1b")
+{
+    ans1 = "Λάθος";
+     document.getElementById("answer1b").style = " display : inline;";
+}
+else if(q1 == "1c")
+{
+    document.getElementById("answer1c").style = " display : inline;";
+    ans1 = "Λάθος";
+}
+else
+document.getElementById("answer1a").style = " display : inline;";
+
+if(q2 == "2a")
+{
+    document.getElementById("answer2a").style = " display : inline;";
+    ans2 = "Λάθος";
+}
+else if(q2 == "2b")
+{
+    document.getElementById("answer2b").style = " display : inline;";
+    count++;
+    ans2 = "Σωστό";
+}
+else if(q2 == "2c")
+{
+    document.getElementById("answer2c").style = " display : inline;";
+    ans2 = "Λάθος";
+}
+else
+    document.getElementById("answer2b").style = " display : inline;";
+
+if(q3 == "3a")
+{
+    document.getElementById("answer3a").style = " display : inline;";
+    count++;
+    ans3 = "Σωστό";
+}
+else if(q3 == "3b")
+{
+    document.getElementById("answer3b").style = " display : inline;";
+    ans3 = "Λάθος";
+}
+else
+    document.getElementById("answer3a").style = " display : inline;";
+
+if(q4 == "4a")
+{
+    document.getElementById("answer4a").style = " display : inline;";
+    count++;
+    ans4 = "Σωστό";
+}
+else if(q4 == "4b")
+{
+    document.getElementById("answer4b").style = " display : inline;";
+    ans4 = "Λάθος";
+}
+else
+     document.getElementById("answer4a").style = " display : inline;";
+
+if(q5 == "5a")
+{
+     document.getElementById("answer5a").style = " display : inline;";
+    ans5 = "Λάθος";
+}
+else if(q5 == "5b")
+{
+     document.getElementById("answer5b").style = " display : inline;";
+    count++;
+    ans5 = "Σωστό";
+}
+else
+    document.getElementById("answer5b").style = " display : inline;";
+
+if(q6b.checked && q6c.checked && q6a.checked == false){
+    document.getElementById("answer6b").style = " display : inline;";
+    document.getElementById("answer6c").style = " display : inline;";
+    count++;
+    ans6 = "Σωστό"
+}
+else{
+    
+    ans6 = "Λάθος"
+}
+
+if(q7 == "Schumacher" || q7 == "schumacher" || q7 == "Michael Schumacher" || q7 == "michael schumacher")
+{
+    document.getElementById("answer7b").style = " display : inline;";
+    count++;
+    ans7 = "Σωστό"
+}
+else{
+    document.getElementById("answer7a").style = " display : inline;";
+    ans7 = "Λάθος"
+}
+
+if(q8 == "Williams" || q8 == "williams" || q8 == "Γουίλιαμς")
+{
+    document.getElementById("answer8b").style = " display : inline;";
+    count++;
+    ans8 = "Σωστό"
+}
+else{
+    document.getElementById("answer8a").style = " display : inline;";
+    ans8 = "Λάθος"
+}
+
+if(q9 == "3" || q9 == "03")
+{
+     document.getElementById("answer9b").style = " display : inline;";
+    count++;
+    ans9 = "Σωστό"
+}
+else{
+     document.getElementById("answer9a").style = " display : inline;";
+    ans9 = "Λάθος"
+}
+
+
+document.getElementById("results").style = " display : inline;";
+document.getElementById("results").innerHTML = "Results: " + count + "/8";
+
+
+event.preventDefault();
+
+}
+
+</script>
+
+
+</body>
+</html>

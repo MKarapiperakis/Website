@@ -1,0 +1,332 @@
+html
+{
+	font-family: "arial";
+}
+
+	
+
+
+.navbar {
+  overflow: hidden;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height:48px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  z-index:1;
+}
+
+.header {
+	
+	height:10px;
+	margin-top: 48px;
+	margin-bottom:50px;
+	
+	}
+	
+.header h1{
+	position: absolute;
+	top: 25px;
+	width: 100%;
+	color: red;
+	font-size: 30px;
+	text-align: center;
+	background-color: white;
+	border-top: 2px solid red;
+	font-family: "Impact", fantasy;
+	padding: 0px 0px 10px 0px;
+	
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 3.5% 0px  3.5%;
+  width: 16.665%;
+  text-decoration: none;
+  font-size: 1.2vw;
+  height:48px;
+}
+
+.navbar a:hover {
+  background: #010f26;
+  color: white;
+}
+
+form{
+	color: white;
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  
+}
+
+
+body {
+	/*background: url(media/photos/login.png) repeat;*/
+  
+  background: black;
+  background-attachment: fixed;
+  margin:0;}
+
+
+.main p{
+	text-align: center;
+	color: #ccc;
+	padding :10px;
+	text-align: left;
+	font-size: 18px;
+	}
+	
+.main a{
+color: #f6d600;
+}
+
+.main a:hover{
+	color: #f6ff01;
+}
+
+.main select{
+  color: #ff2500;
+  font-size:13px;
+  text-align:center;
+  background: none;
+  padding: 2px;
+  border: 1px solid white;
+  margin: 2px;
+}
+.main option{
+	color: black;
+	}
+
+
+.navbar2 {
+overflow: hidden;
+height: 50px;
+z-index:1;
+background-color: red;
+width: 100%;
+padding-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+   padding: 10px;
+  background-color: red;
+  width: 108px;
+  
+}
+ 
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 109px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-weight: bold;
+  top: 45px;
+}
+
+.dropdown-content a {
+  color: red;
+  padding: 10px 10px;
+  
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background: #010f26;
+	color:white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn 
+{
+	background: white;
+    	color: red;
+}	
+
+	
+
+.footer {
+	font-family:Verdana;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 50%;
+	background-color: red;
+	color: black;
+	
+	text-align: center;
+	overflow: hidden;
+	
+  z-index:1;
+}
+
+ 
+
+
+.footer p{
+	color: white;
+	padding: 5px 0px 0px 0px;
+}
+.footer p a{
+	color: white;
+	
+}
+  
+.footer p a:link{
+	text-decoration:none;
+	color: white;
+	font-size: 14px;
+	opacity: 0.8;
+
+}
+
+.footer p a:hover{
+	text-decoration:underline;
+	color: none;
+	opacity: 1;
+}
+
+.footer h3{
+	border-bottom: 1px solid white;
+	color: white;
+	font-size: 15px;
+	opacity:0.8;
+	
+	
+}
+
+
+.footer h3 a{
+	color: white;
+	font-size: 15px;
+	opacity:0.8;
+}
+
+.footer h3 a:hover{
+	opacity: 1
+	
+}
+
+.box
+{
+    /*	z-index: 1;*/
+	overflow: visible;
+	left:0;
+	position: absolute;
+	padding: 15px;
+	width: 10px;
+}
+
+label
+{
+	position: absolute;		/*it was relative before */
+	margin: 5px 0;
+	cursor: pointer;
+	
+}
+
+label input{
+	appearance: none;
+	display: none;
+	
+}
+
+label span
+{
+	position: relative;
+	display: block;
+	width: 80px;
+	height: 40px;
+	background: #222;
+	border-radius: 40px;
+	box-shadow: inset 0 2px 15px rgba(0,0,0,0.2),
+				inset 0 2px 2px rgba(0,0,0,0.2),
+				inset 0 -1px 1px rgba(0,0,0,0.2);
+}
+
+label .indicator
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 40px;
+	background: linear-gradient(to bottom, #444, #222);
+	border-radius: 50%;
+	box-shadow: inset 0 2px 5px rgba(0,0,0,0.5),
+				inset 0 1px 1px rgba(255,255,255,0.1);
+	transition: 0.5s;
+}
+
+label input:checked ~ .indicator
+{
+	
+	left:40px;
+}
+
+label .indicator::before		/*h koukida prin*/
+{
+content: '';
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 5px;
+height: 5px;
+background: #000;
+border-radius: 50%;
+transition: 0.5s;
+box-shadow: 0 0 2px #000,
+			0 0 5px #000,
+			0 0 10px #000,
+			0 0 15px #000,
+			0 0 20px #000,
+			0 0 25px #000,
+			0 0 30px #000,
+			0 0 40px #000;
+}
+
+label input:checked ~ .indicator::before	
+{
+	background: white;
+	box-shadow: 0 0 2px white,
+			0 0 5px white,
+			0 0 10px white,
+			0 0 15px white,
+			0 0 20px white,
+			0 0 25px white,
+			0 0 30px white,
+			0 0 40px white;
+}
+
+.header{
+	display: inline;
+	}
+
